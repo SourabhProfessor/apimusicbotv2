@@ -34,9 +34,8 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_2"], callback_data="shiv_aarumi"),
+            InlineKeyboardButton(text="⚡ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/LearnToProfessor"), # Yahan apni developer ki link/username daal dein
             InlineKeyboardButton(text="💌 ʏᴛ-ᴀᴘɪ", callback_data="bot_info_data"),
         ],
-        [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
     ]
     return buttons
