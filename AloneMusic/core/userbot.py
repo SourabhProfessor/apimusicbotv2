@@ -61,8 +61,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TheAloneTeam")
-                await self.one.join_chat("Aashikteam")
+                await self.one.join_chat("LearnToProfessor")
+                await self.one.join_chat("FriendlyunknownHub")
             except:
                 pass
             assistants.append(1)
@@ -82,8 +82,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Aashikteam")
-                await self.one.join_chat("TheAloneTeam")
+                await self.two.join_chat("FriendlyunknownHub")
+                await self.one.join_chat("LearnToProfessor")
             except:
                 pass
             assistants.append(2)
@@ -103,8 +103,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Aashikteam")
-                await self.one.join_chat("TheAloneTeam")
+                await self.three.join_chat("FriendlyunknownHub")
+                await self.one.join_chat("LearnToProfessor")
             except:
                 pass
             assistants.append(3)
@@ -124,8 +124,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("TheAloneTeam")
-                await self.one.join_chat("Aashikteam")
+                await self.four.join_chat("LearnToProfessor")
+                await self.one.join_chat("FriendlyunknownHub")
             except:
                 pass
             assistants.append(4)
@@ -145,8 +145,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("TheAloneTeam")
-                await self.one.join_chat("Aashikteam")
+                await self.five.join_chat("LearnToProfessor")
+                await self.one.join_chat("FriendlyunknownHub")
             except:
                 pass
             assistants.append(5)
